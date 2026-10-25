@@ -24,8 +24,8 @@
   "commands": {
     "toggle-ai-mode": {
       "suggested_key": {
-        "default": "Ctrl+Shift+9",
-        "mac": "Command+Shift+9"
+        "default": "Ctrl+Shift+0",
+        "mac": "Command+Shift+0"
       },
       "description": "Show or hide Google AI Mode",
       "global": true

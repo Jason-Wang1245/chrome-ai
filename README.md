@@ -17,7 +17,7 @@ in your current Chrome profile. No API key, backend, dependencies, or build step
 
 | Action | Result |
 | --- | --- |
-| **Cmd+Shift+9** (Mac) or **Ctrl+Shift+9** (Windows/Linux) | Open or restore the chat from any app while Chrome is running. |
+| **Cmd+Shift+0** (Mac) or **Ctrl+Shift+0** (Windows/Linux) | Open or restore the chat from any app while Chrome is running. |
 | Press the shortcut while the chat is focused | Minimize the chat, keeping the conversation and draft. |
 | Click the toolbar button | Open or focus the existing chat. |
 | Close the chat window | End window reuse; the next invocation opens AI Mode again. |
@@ -30,6 +30,9 @@ regular floating window, so other apps can cover it.
 To change the hotkey, open `chrome://extensions/shortcuts`, edit the shortcut,
 and keep its scope set to **Global**. Chrome or your operating system may reserve
 some combinations. ChromeOS does not support global extension shortcuts.
+
+If Chrome keeps the previous shortcut after reloading the extension, update it
+manually at `chrome://extensions/shortcuts` and keep its scope set to **Global**.
 
 ## Privacy and behavior
 
